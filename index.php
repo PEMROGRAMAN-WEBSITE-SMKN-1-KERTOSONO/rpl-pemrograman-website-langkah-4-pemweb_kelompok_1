@@ -32,3 +32,14 @@ $catatan = $_POST['catatan'];
 
 </body>
 </html>
+
+<?php
+
+if(isset($_POST['simpan'])){
+
+    $nama = $_POST['nama'];
+    $catatan = $_POST['catatan'];
+
+}
+
+?>
